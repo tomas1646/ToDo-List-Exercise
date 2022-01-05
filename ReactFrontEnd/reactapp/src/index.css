@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.ancho {
+  max-width: 600px;
+  padding-top: 50px;
+}
+
+p {
+  margin-bottom: 0;
+  float: right;
+  color: blue;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.cursor:hover {
+  color: mediumblue;
+}
+
+.linkFolder {
+  margin-bottom: 0;
+  float: right;
+  color: blue;
+  text-decoration: none;
+}
+.linkFolder:hover {
+  color: mediumblue;
+}
+
+.linkTodo {
+  text-decoration: none;
+  color: black;
+}
+
+.btnEdit {
+  margin-left: 10px;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
