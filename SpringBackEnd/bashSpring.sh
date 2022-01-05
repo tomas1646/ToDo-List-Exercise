@@ -53,14 +53,4 @@ mvn install
 
 cd target
 
-sleep 3
-
-echo "
-
-BackEnd casi listo, va a correr en puerto 8080
-
-"
-
-sleep 5
-
 java -jar EnsolversInterview-0.0.1-1erosPasos.war
