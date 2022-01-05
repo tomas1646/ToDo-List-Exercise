@@ -14,5 +14,7 @@ chmod +x bashReact.sh
 
 gnome-terminal -- ./bashReact.sh
 
+cd ..
 
-exit
+echo "
+You may close this terminal"
