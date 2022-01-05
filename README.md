@@ -5,13 +5,16 @@
 * Creación de carpetas (Folders) que agrupen los To-Do items.
 
 ### Requisitos para correr en Linux
-Instalar Java, en caso de no tenerlo, lo podemos hacer con el siguiente comando.
+Instalar Java, en caso de no tenerlo, lo podemos hacer con el siguiente comando:
 
 `sudo apt install default-jdk`
 
-Instalar Maven, para poder instalarlo se hace con el siguiente comando.
+Instalar Maven, para poder instalarlo se hace con el siguiente comando:
 
 `sudo apt get install maven`
+
+Instalar Node, para poder instalarlo se hace con el siguiente comando:
+`sudo apt install npm`
 
 Tener instalado MySQL, con: 
 * usuario = root
