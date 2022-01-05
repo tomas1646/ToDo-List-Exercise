@@ -92,8 +92,7 @@ Framework:
 * Bootstrap v 5.1.3 
 
 Librerias:
-* React js
-
+* React js (ultima version)
 
 #### Back-End
 Las tecnologias utilizadas con sus versiones son:
