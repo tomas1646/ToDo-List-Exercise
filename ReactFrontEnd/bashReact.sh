@@ -1,15 +1,11 @@
 #!/bin/bash
-cd reactapp
 
-npm install
-
-echo "
-
-FrontEnd casi listo, va a correr en puerto 3000
-
-"
+echo "Setting Up React App"
 
 sleep 5
 
+cd reactapp
+
+npm install
 
 npm start

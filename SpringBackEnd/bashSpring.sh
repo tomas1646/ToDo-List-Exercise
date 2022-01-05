@@ -1,5 +1,11 @@
 #!/bin/bash
 
+echo "Setting Up Spring Project
+
+"
+
+sleep 3
+
 echo "Creating DataBase"
 
 mysql -u root -proot -e "
