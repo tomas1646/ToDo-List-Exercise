@@ -13,8 +13,14 @@ Instalar Maven, para poder instalarlo se hace con el siguiente comando:
 
 `sudo apt get install maven`
 
-Instalar Node, para poder instalarlo se hace con el siguiente comando:
-`sudo apt install npm`
+Instalar Node (ultima version v16), para poder instalar la ultima version, se puede hacer son los siguientes comandos:
+
+```
+sudo apt install curl
+cd ~
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+sudo apt -y install nodejs
+```
 
 Tener instalado MySQL, con: 
 * usuario = root
@@ -78,14 +84,16 @@ La aplicación corre en el puerto numero 8080. La podemos abrir de nuestro naveg
 ##### Editar To-Do
 ![Edit ToDo](https://github.com/tomas1646/Implementation-Exercise-ToDo-List/blob/master/img%20README/EditingTodo.jpg "Edit ToDo")
 
-### Technologies
+### Tecnologias
 
 #### Front-End
 
 Framework:
 * Bootstrap v 5.1.3 
 
-Al ser una pagina simple, solo use Bootstrap para hacer el diseño Responsive. El manejo de la Single Page web Application (SPA) lo hice solo con JavaScript, sin usar otros frameworks.
+Librerias:
+* React js
+
 
 #### Back-End
 Las tecnologias utilizadas con sus versiones son:
