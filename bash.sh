@@ -4,7 +4,7 @@ cd ReactFrontEnd
 
 chmod +x bashReact.sh
 
-gnome-terminal ./bashReact.sh
+gnome-terminal +x ./bashReact.sh
 
 cd ..
 
@@ -12,4 +12,4 @@ cd SpringBackEnd
 
 chmod +x bashSpring.sh
 
-gnome-terminal ./bashSpring.sh
+gnome-terminal +x ./bashSpring.sh
