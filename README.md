@@ -48,11 +48,11 @@ referencia: https://stackoverflow.com/questions/41645309/mysql-error-access-deni
 1. Desde la terminal nos vamos al directorio donde queremos clonar el repositorio.
 2. Clonamos el repositorio
 
-`git clone https://github.com/tomas1646/Implementation-Exercise-ToDo-List`
+`git clone https://github.com/tomas1646/ToDo-List-Exercise`
 
 3. Una vez clonado, entramos a la carpeta
 
-`cd Implementation-Exercise-ToDo-List/`
+`cd ToDo-List-Exercise/`
 
 4. Luego, para configurar el proyecto tenemos que ejecutar bash.sh. Pero para poder ejecutarlo debemos darle permiso para que se pueda correr. 
 
