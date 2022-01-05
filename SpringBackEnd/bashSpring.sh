@@ -1,10 +1,8 @@
 #!/bin/bash
 
-echo "Setting Up Spring Project
+echo "Setting Up Spring Project"
 
-"
-
-sleep 3
+sleep 2
 
 echo "Creating DataBase"
 
