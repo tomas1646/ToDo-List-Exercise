@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AiFillEdit, AiFillDelete } from 'react-icons/ai';
 
 const urlTODO = 'http://localhost:8080/todo';
 
-function ToDo({ todo, folderTitulo, folderId }) {
+function ToDo({ todo, folderTitulo, folderId, removeTodo }) {
   const [edit, setEdit] = useState(todo.isCompleted == 1);
 
   //Edit ToDo Checkbox
@@ -39,24 +40,27 @@ function ToDo({ todo, folderTitulo, folderId }) {
             onChange={handleChange}
           />
         </div>
-        <div className='col-9'>{todo.description}</div>
+        <div className='col-7'>{todo.description}</div>
         <div className='col-2'>
-          <p className='cursor'>
-            <Link
-              className='linkFolder'
-              to={
-                '/todo/' +
-                folderTitulo +
-                '/' +
-                folderId +
-                '/' +
-                todo.description +
-                '/' +
-                todo.id
-              }
-            >
-              Edit
-            </Link>
+          <Link
+            className='linkFolder'
+            to={
+              '/todo/' +
+              folderTitulo +
+              '/' +
+              folderId +
+              '/' +
+              todo.description +
+              '/' +
+              todo.id
+            }
+          >
+            <AiFillEdit />
+          </Link>
+        </div>
+        <div className='col-2 cursor'>
+          <p className='cursor' onClick={() => removeTodo(todo.id)}>
+            <AiFillDelete />
           </p>
         </div>
       </div>

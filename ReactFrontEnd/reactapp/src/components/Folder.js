@@ -1,4 +1,6 @@
 import React from 'react';
+import { AiFillDelete } from 'react-icons/ai';
+import { IoListSharp } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 
 const Folder = ({ removeFolder, folder }) => {
@@ -10,12 +12,12 @@ const Folder = ({ removeFolder, folder }) => {
           className='linkFolder'
           to={'/todo/' + folder.nombre + '/' + folder.id}
         >
-          View Items
+          <IoListSharp />
         </Link>
       </div>
       <div className='col-2'>
         <p className='cursor' onClick={() => removeFolder(folder.id)}>
-          Remove
+          <AiFillDelete />
         </p>
       </div>
     </div>

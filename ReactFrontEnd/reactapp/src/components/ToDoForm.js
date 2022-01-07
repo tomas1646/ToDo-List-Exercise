@@ -21,7 +21,7 @@ function ToDoForm(props) {
       isCompleted: 0,
       folderId: props.folderId,
     };
-    console.log(todoCreated);
+
     const options = {
       method: 'POST',
       headers: {

@@ -64,5 +64,11 @@ public class ToDoService {
 
 		todoRespository.save(task);
 	}
+	
+	public void deleteTask(Long id) {
+		
+		todoRespository.deleteById(id);
+		
+	}
 
 }

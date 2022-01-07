@@ -40,6 +40,13 @@ public class ToDoController {
 
 		return taskService.saveToDo(request);
 	}
+	
+	@PostMapping(path = "/{id}")
+	public void deleteTask(@PathVariable("id")Long id) {
+		
+		taskService.deleteTask(id);
+		
+	}
 
 	@PostMapping(path = "/{id}/isComplete/{isCompleted}")
 	public void changeIsCompleted(@PathVariable("id") Long id, @PathVariable("isCompleted") Integer isCompleted) {

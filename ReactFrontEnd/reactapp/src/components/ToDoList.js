@@ -13,7 +13,7 @@ function ToDoList() {
   const folderId = idfolder;
   const folderTitulo = titulo;
 
-  const [todos, setTodos] = React.useState([]);
+  const [todos, setTodos] = useState([]);
 
   //Get Data from DataBase
   useEffect(() => {
@@ -31,6 +31,21 @@ function ToDoList() {
     setTodos(newTodo);
   };
 
+  const removeTodo = (id) => {
+    const remove_Todo = [...todos].filter((todo) => todo.id != id);
+
+    const options = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    };
+
+    fetch(urlTODO + '/' + id, options);
+
+    setTodos(remove_Todo);
+  };
+
   return (
     <>
       <Link className='linkTodo' to='/'>
@@ -43,6 +58,7 @@ function ToDoList() {
             todo={todo}
             folderTitulo={folderTitulo}
             folderId={folderId}
+            removeTodo={removeTodo}
           />
         );
       })}
