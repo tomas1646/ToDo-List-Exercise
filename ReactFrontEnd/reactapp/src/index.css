@@ -42,3 +42,7 @@ p {
 h3 {
   margin-bottom: 15px;
 }
+
+.editTodoBtn {
+  width: 35%;
+}

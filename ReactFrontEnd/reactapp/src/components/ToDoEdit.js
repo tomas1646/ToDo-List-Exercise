@@ -42,7 +42,7 @@ function ToDoEdit() {
       <br />
       <Link to={'/todo/' + titulo + '/' + idfolder}>
         <button
-          className='btn btn-secondary'
+          className='btn btn-secondary editTodoBtn'
           style={{ width: '35%' }}
           onClick={editTodo}
         >
@@ -50,7 +50,10 @@ function ToDoEdit() {
         </button>
       </Link>
       <Link to={'/todo/' + titulo + '/' + idfolder}>
-        <button className='btn btn-secondary btnEdit' style={{ width: '35%' }}>
+        <button
+          className='btn btn-secondary btnEdit editTodoBtn'
+          style={{ width: '35%' }}
+        >
           Cancel
         </button>
       </Link>
