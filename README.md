@@ -76,13 +76,13 @@ La aplicación corre en el puerto numero 8080. La podemos abrir de nuestro naveg
 ### Vistas
 
 ##### Folder
-![Folder](https://github.com/tomas1646/Implementation-Exercise-ToDo-List/blob/master/img%20README/Folder.jpg "Folder")
+![Folder](https://github.com/tomas1646/ToDo-List-Exercise/blob/master/img%20README/Folder.jpg "Folder")
 
 ##### Lista To-Do
-![ToDo](https://github.com/tomas1646/Implementation-Exercise-ToDo-List/blob/master/img%20README/ToDo%20List.jpg "ToDo")
+![ToDo](https://github.com/tomas1646/ToDo-List-Exercise/blob/master/img%20README/ToDo%20List.jpg "ToDo")
 
 ##### Editar To-Do
-![Edit ToDo](https://github.com/tomas1646/Implementation-Exercise-ToDo-List/blob/master/img%20README/EditingTodo.jpg "Edit ToDo")
+![Edit ToDo](https://github.com/tomas1646/ToDo-List-Exercise/blob/master/img%20README/EditingTodo.jpg "Edit ToDo")
 
 ### Tecnologias
 
